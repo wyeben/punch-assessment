@@ -1,0 +1,64 @@
+.section {
+  max-width: 1280px;
+  margin: auto;
+}
+
+.fade-in-left {
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.fade-in-bottom {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.fade-in-visible {
+  opacity: 1;
+  transform: translateX(0) translateY(0);
+}
+
+
+.slanted-top {
+  clip-path: polygon(0 5%, 100% 0, 100% 100%, 0% 100%);
+}
+
+.slanted-border {
+  clip-path: polygon(0 1%, 100% 0, 100% 99%, 0% 100%);
+}
+
+.slanted-footer {
+  clip-path: polygon(0 10%, 100% 0, 100% 90%, 0% 100%);
+}
+
+.drop-shadow-card {
+  box-shadow: 0px 15px 30px 0px #bfb5ff26;
+}
+
+.gradient-bg {
+  background: linear-gradient(
+    180deg,
+    rgba(237, 239, 255, 0) 0%,
+    #edefff 130.82%
+  );
+}
+
+.footer-gradient {
+  background: linear-gradient(180deg, #0c0c0c 0%, #202229 100%);
+}
+
+.group-hover\:translate-x-5:hover .group-hover\:translate-x-5 {
+  transform: translateX(1.25rem); 
+}
+
+.group-hover\:opacity-100:hover .group-hover\:opacity-100 {
+  opacity: 1;
+}
+
+@media (min-width: 1024px) {
+  .slanted-border {
+    clip-path: polygon(0 5%, 100% 0, 100% 95%, 0% 100%);
+  }
+}
