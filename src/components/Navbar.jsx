@@ -168,7 +168,13 @@ const Navbar = () => {
                   to="/"
                   className="bg-white text-[#202229] border-none rounded-2xl hover:bg-[#A285D0] hover:text-white p-2 w-full block text-center mt-2"
                 >
-                  Join
+                  Login
+                </Link>
+                <Link
+                  to="/"
+                  className="bg-white text-[#202229] border-none rounded-2xl hover:bg-[#A285D0] hover:text-white p-2 w-full block text-center mt-2"
+                >
+                  Join Now
                 </Link>
               </li>
             </ul>
