@@ -9,7 +9,7 @@ const JasonGroove = () => {
   return (
     <div className="min-h-screen w-full flex bg-[#202229] slanted-border relative bottom-5 lg:bottom-20 py-20">
       <div className="px-4">
-        {/* Double Quote image */}
+
         <img
           src={DquoteImg}
           alt="Double-Quote"
