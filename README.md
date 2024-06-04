@@ -2,7 +2,7 @@
 
 ## Set Up  Instructions
 1. Clone the repository:
-git clone https://github.com/emefienem/Zwilt-page.git
+git clone https://github.com/wyeben/punch-assessment.git
 
 2. Open it in Vscode:
 install dependencies
