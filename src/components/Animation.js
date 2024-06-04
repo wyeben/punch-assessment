@@ -11,6 +11,7 @@ const Animation = ({ className, children, animation }) => {
   return (
     <div
       ref={ref}
+      
       className={`${className} ${animation} ${inView ? "fade-in-visible" : ""}`}
     >
       {children}
